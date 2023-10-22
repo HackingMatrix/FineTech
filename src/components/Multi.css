@@ -7,7 +7,7 @@
     flex-direction: column;
     place-items: center;
     place-content: center;
-    background-image: url("../public/Recurso\ 1.png");
+    background-image: url("/Recurso 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll; /* Cambia a scroll en lugar de fixed */

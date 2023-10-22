@@ -26,7 +26,7 @@ const Hero2 = () => {
         <div className='item1'>
             <div className='hero'>
               <div className='isotipo'>
-                <img src="public/FaviconFineTech.png" alt="" className='logo'/>
+                <img src="/FaviconFineTech.png" alt="" className='logo'/>
                 <h1>INT</h1> 
               </div>
                 
