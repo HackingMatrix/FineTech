@@ -1,0 +1,63 @@
+.thxRoot{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-image: url("../public/Recurso\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Cambia a scroll en lugar de fixed */
+    width: 100%;
+    min-height: 100vh;
+}
+
+.imageThnx{
+    width: 250px;
+    height: 400px;
+}
+
+.thxTop {
+    font-size: x-large;
+    color: rgba(255,255,255,255);
+    display: flex;
+    gap: 25px;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    flex-direction: column;
+    text-align: center;
+    
+    padding: 20px;
+  }
+  
+  /* Estilos para la segunda fila */
+.thxBottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    color: rgba(88,93,204,255);
+    padding-bottom: 100px;
+}
+
+@media (min-width: 1020px) {
+    .thxRoot{
+        display: flex;
+    }
+
+    .thxBottom {
+        width: 50%;
+        padding-bottom: 0;
+    }
+
+    .thxTop {
+        width: 50%;
+      }
+
+      .imageThnx{
+        width: 450px;
+        height: 600px;
+        padding-right: 300px;
+    }
+  }
+  
