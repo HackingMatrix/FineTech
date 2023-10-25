@@ -7,7 +7,7 @@ const Register = () => {
     <div className='registerRoot'>
       <div className='top-row'>
         <div style={{display: 'flex', flexDirection:'row', alignItems:'center'}}>
-          <img src="/FaviconFineTech.png" alt="" className='logo'/>
+          <img src="FineTech/FaviconFineTech.png" alt="" className='logo'/>
           <h1>INT</h1>
         </div>
         <p>¡Impulsa tus ventas con el poder de INT! 🚀</p>

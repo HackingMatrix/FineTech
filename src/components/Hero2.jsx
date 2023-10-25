@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const imagenes = [
-    '/PhoneHome.png',
-    '/PhoneHome2.png',
-    '/PhoneHome3.png',
-    '/PhoneHome4.png',
-    '/PhoneHome5.png',
-    '/PhoneHome6.png'
+    './PhoneHome.png',
+    './PhoneHome2.png',
+    './PhoneHome3.png',
+    './PhoneHome4.png',
+    './PhoneHome5.png',
+    './PhoneHome6.png'
   ];
 
 const Hero2 = () => {
@@ -26,7 +26,7 @@ const Hero2 = () => {
         <div className='item1'>
             <div className='hero'>
               <div className='isotipo'>
-                <img src="/FaviconFineTech.png" alt="" className='logo'/>
+                <img src="./FaviconFineTech.png" alt="" className='logo'/>
                 <h1>INT</h1> 
               </div>
                 

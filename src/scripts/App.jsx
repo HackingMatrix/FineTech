@@ -11,8 +11,8 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Hero2/>} />
-        <Route exact path="/registro" element={ <Register/>} />
+        <Route exact path="/FineTech" element={<Hero2/>} />
+        <Route exact path="/registro" element={ <Register/> } />
         <Route exact path="/thx" element={ <Thx/>} />
     </Routes></BrowserRouter>
     </>
